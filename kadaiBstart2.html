@@ -19,12 +19,12 @@
       line-height:100px;
       color:skyblue;
     }
-    .box:hover{/*hoverはカーソルが置かれた時に動く*/
+    .box:hover{
       background-color:#87cefc;
       transform:scale(1.2);
       font-weight: bold;
     }
-    .win{/*大吉*/
+    .win{
       background:pink;
       border-radius:50%;
       transform:rotate(360deg);/*回転する角度*/
@@ -35,17 +35,35 @@
       transform:scale(1.2);
       font-weight: bold;
     }
-    .lose1{/*小吉*/
+    .lose1{
       transform:scale(0.9);
+      background-color:#ffcc00;
       color:black;
     }
-    .lose2{/*中吉*/
+    .lose1:hover{
+      background-color:#ffcc0f;
+      transform:scale(1.2);
+      font-weight: bold;
+    }
+    .lose2{
       transform:scale(0.9);
+      background-color:#33cc00;
       color:black;
     }
-    .lose3{/*凶*/
+    .lose2:hover{
+      background-color:#33cc0f;
+      transform:scale(1.2);
+      font-weight: bold;
+    }
+    .lose3{
       transform:scale(0.9);
+      background-color:#9966ff;
       color:black;
+    }
+    .lose3:hover{
+      background-color:#9966dd;
+      transform:scale(1.2);
+      font-weight: bold;
     }
   </style>
 </head>
